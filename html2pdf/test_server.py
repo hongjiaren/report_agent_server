@@ -1,7 +1,7 @@
 import requests
 
 # 本地Flask服务地址
-url = "http://127.0.0.1:5000/generate_pdf"
+url = "http://127.0.0.1:5535/generate_pdf"
 
 # 示例HTML内容
 html_content = """

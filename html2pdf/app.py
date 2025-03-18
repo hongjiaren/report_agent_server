@@ -19,7 +19,7 @@ def generate_pdf():
     pdf_file_path = os.path.join(PDF_DIR, f"{data.get('filename', 'output')}.pdf")
     HTML(string=html_content).write_pdf(pdf_file_path)
     
-    # 返回PDF文件的URL（假设你的Web服务器配置正确，可以访问这个路径）
+    # 返回PDF文件的URL（Web服务器配置正确，可以访问这个路径）
     pdf_url = f"/pdfs/{os.path.basename(pdf_file_path)}"
     return jsonify({"pdf_url": pdf_url})
 
@@ -29,7 +29,7 @@ def serve_pdf(filename):
 
 if __name__ == '__main__':
     HOST = '127.0.0.1'  # 设置为你想要绑定的IP地址
-    PORT = 5000         # 设置为你想要使用的端口号
+    PORT = 5535         # 设置为你想要使用的端口号
     
     print(f"正在启动html生成pdf应用于: http://{HOST}:{PORT}")
     app.run(host=HOST, port=PORT)
