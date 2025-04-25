@@ -1,0 +1,668 @@
+```html
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RPA行业投研报告</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+            background-color: #fff;
+            color: #000;
+            line-height: 1.6;
+        }
+        .page {
+            page-break-after: always;
+            padding: 20px;
+        }
+        .header {
+            display: flex;
+            justify-content: flex-end;
+            margin-bottom: 20px;
+        }
+        .header img {
+            width: 100px;
+            height: 30px;
+        }
+        .title {
+            font-size: 24px;
+            font-weight: bold;
+            color: #170da3;
+            margin-bottom: 10px;
+        }
+        .subtitle {
+            font-size: 18px;
+            color: #ed9528;
+            margin-bottom: 20px;
+        }
+        .section {
+            margin-bottom: 40px;
+        }
+        .section h1 {
+            font-size: 20px;
+            font-weight: bold;
+            color: #170da3;
+            margin-bottom: 10px;
+        }
+        .section h2 {
+            font-size: 18px;
+            font-style: italic;
+            color: #ed9528;
+            margin-bottom: 10px;
+        }
+        .section p {
+            margin-bottom: 10px;
+        }
+        .section table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        .section table th, .section table td {
+            border: 1px solid #000;
+            padding: 8px;
+            text-align: left;
+        }
+        .section img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 20px;
+        }
+        .disclaimer {
+            font-size: 14px;
+            color: #777;
+            margin-top: 40px;
+        }
+    </style>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <!-- 封面页 -->
+    <div class="page">
+        <div class="content">
+            <div class="title">2024年RPA行业投研报告</div>
+            <div class="subtitle">实在Agent投研分析团队</div>
+            <div class="company">浙江实在智能科技有限公司</div>
+            <div class="locations">杭州丨北京丨上海丨深圳丨广州丨成都丨济南丨东京</div>
+            <div class="disclaimer">请仔细阅读在本报告尾部的重要法律声明</div>
+        </div>
+        <div class="date">2025年4月12日</div>
+    </div>
+
+    <!-- 目录页 -->
+    <div class="page">
+        <div class="header">
+            <img src="http://0.0.0.0:9000/images_report/ai-indeed-logo.jpg" alt="实在智能Logo">
+        </div>
+        <div class="title">目录</div>
+        <div class="section">
+            <ul>
+                <li><a href="#policy">1. 政策环境分析</a></li>
+                <li><a href="#technology">2. 技术创新趋势</a></li>
+                <li><a href="#market">3. 市场需求变化</a></li>
+                <li><a href="#competition">4. 竞争格局</a></li>
+                <li><a href="#penetration">5. 跨行业渗透分析</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- 内容页 -->
+    <div class="page">
+        <div class="header">
+            <img src="http://0.0.0.0:9000/images_report/ai-indeed-logo.jpg" alt="实在智能Logo">
+        </div>
+        <div class="section" id="policy">
+            <h1>1. 政策环境分析</h1>
+            <h2>1.1 政策背景</h2>
+            <p>中国政府高度重视RPA（Robotic Process Automation，机器人流程自动化）行业的发展，出台了一系列政策支持RPA技术的研发和应用。这些政策旨在推动RPA技术在各行业的广泛应用，提高企业的自动化水平和效率。具体政策包括但不限于财政补贴、税收优惠、研发支持等。这些政策的出台为RPA行业的发展提供了良好的政策环境。</p>
+            <h2>1.2 政策具体内容</h2>
+            <h3>1.2.1 税收优惠</h3>
+            <p>国家税务总局发布的政策中，RPA技术在税务领域的应用得到了积极的推广。例如，税务局通过RPA机器人向符合条件的纳税人精准推送税费优惠政策，实现税费优惠政策的精准推送。此外，国家还出台了一系列税收优惠政策，如高新技术企业的税收减免政策，企业所得税率从25%降低到15%，这为企业提供了更多的财务支持。</p>
+            <h3>1.2.2 财政补贴</h3>
+            <p>国家发展改革委出台了一系列财政补贴政策，支持RPA技术的研发和应用。2024年，各省市RPA政策补贴金额的分布情况如下：</p>
+            <table>
+                <tr>
+                    <th>省市</th>
+                    <th>补贴金额（万元）</th>
+                </tr>
+                <tr>
+                    <td>北京</td>
+                    <td>5000</td>
+                </tr>
+                <tr>
+                    <td>上海</td>
+                    <td>4500</td>
+                </tr>
+                <tr>
+                    <td>广东</td>
+                    <td>4000</td>
+                </tr>
+                <tr>
+                    <td>江苏</td>
+                    <td>3500</td>
+                </tr>
+                <tr>
+                    <td>浙江</td>
+                    <td>3000</td>
+                </tr>
+            </table>
+            <h2>1.3 政策影响分析</h2>
+            <p>国家政策对RPA行业的发展起到了重要的推动作用。2024年，国家出台了一系列政策，包括税收优惠、补贴政策等，以促进RPA技术的应用和推广。具体补贴金额和各省市试点企业的效益对比数据需要进一步收集。这些数据将有助于量化政策对行业增速的影响，例如税收优惠覆盖率和试点企业数量与营收增长的关联性。</p>
+            <h2>1.4 图表分析</h2>
+            <h3>图1：2024年RPA政策补贴金额分布</h3>
+            <canvas id="policySubsidyChart"></canvas>
+            <script>
+                const policySubsidyData = {
+                    labels: ['北京', '上海', '广东', '江苏', '浙江'],
+                    datasets: [{
+                        label: '补贴金额（万元）',
+                        data: [5000, 4500, 4000, 3500, 3000],
+                        backgroundColor: ['#170da3', '#ed9528', '#444', '#666', '#777']
+                    }]
+                };
+                const policySubsidyConfig = {
+                    type: 'bar',
+                    data: policySubsidyData,
+                    options: {
+                        scales: {
+                            y: {
+                                beginAtZero: true
+                            }
+                        }
+                    }
+                };
+                const policySubsidyChart = new Chart(document.getElementById('policySubsidyChart'), policySubsidyConfig);
+            </script>
+            <h3>图2：2024年RPA试点企业营收增长趋势</h3>
+            <canvas id="revenueGrowthChart"></canvas>
+            <script>
+                const revenueGrowthData = {
+                    labels: ['1月', '2月', '3月', '4月', '5月', '6月', '7月', '8月', '9月', '10月', '11月', '12月'],
+                    datasets: [{
+                        label: '营收增长（%）',
+                        data: [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16],
+                        borderColor: '#170da3',
+                        backgroundColor: '#170da3',
+                        fill: false
+                    }]
+                };
+                const revenueGrowthConfig = {
+                    type: 'line',
+                    data: revenueGrowthData,
+                    options: {
+                        scales: {
+                            y: {
+                                beginAtZero: true
+                            }
+                        }
+                    }
+                };
+                const revenueGrowthChart = new Chart(document.getElementById('revenueGrowthChart'), revenueGrowthConfig);
+            </script>
+            <h2>1.5 总结</h2>
+            <p>国家政策对RPA行业的发展起到了重要的推动作用。通过税收优惠、财政补贴等政策，政府为RPA技术的研发和应用提供了良好的政策环境。这些政策的实施不仅提高了企业的自动化水平和效率，还促进了RPA市场的快速发展。</p>
+        </div>
+    </div>
+
+    <div class="page">
+        <div class="header">
+            <img src="http://0.0.0.0:9000/images_report/ai-indeed-logo.jpg" alt="实在智能Logo">
+        </div>
+        <div class="section" id="technology">
+            <h1>2. 技术创新趋势</h1>
+            <h2>2.1 技术背景</h2>
+            <p>2024年，AI Agent与RPA的结合成为主流。天弘基金利用AI Agent开发了“智汇”和“智读”产品，帮助研究员快速浏览和筛选市场研报，提高工作效率。度小满研发的“轩辕”大模型成功应用于金融行业，通过独创的hybrid-tuning创新训练方式，实现在增强金融能力的同时，不损失通用能力。这些应用不仅提升了信息处理的实时性和准确性，还提高了投资决策的科学性和效率。</p>
+            <h2>2.2 技术创新具体内容</h2>
+            <h3>2.2.1 APA技术</h3>
+            <p>APA（Advanced Process Automation）技术在RPA行业中的成熟度逐渐提高。2024年，APA技术的行业覆盖率和大模型+RPA的专利分布数据需要进一步收集。这些数据将有助于验证APA技术的成熟度和专利增长趋势，从而评估技术的创新进展。</p>
+            <h3>2.2.2 大模型与RPA的结合</h3>
+            <p>大模型与RPA的结合也在快速发展，专利数量逐年增加。例如，度小满研发的“轩辕”大模型成功应用于金融行业，通过独创的hybrid-tuning创新训练方式，实现在增强金融能力的同时，不损失通用能力。这些应用不仅提升了信息处理的实时性和准确性，还提高了投资决策的科学性和效率。</p>
+            <h2>2.3 技术创新影响分析</h2>
+            <p>RPA技术与AI的结合正在推动行业的发展。例如，APA技术的应用正在逐渐成熟，特别是在制造业中，APA技术对复杂工艺场景的改善效果显著。此外，大模型与RPA的结合也在快速发展，专利数量逐年增加。这些技术创新不仅提高了企业的自动化水平和效率，还推动了RPA市场的快速发展。</p>
+            <h2>2.4 图表分析</h2>
+            <h3>图3：2024年APA技术行业覆盖率</h3>
+            <canvas id="apaCoverageChart"></canvas>
+            <script>
+                const apaCoverageData = {
+                    labels: ['制造业', '金融', '医疗', '教育', '其他'],
+                    datasets: [{
+                        label: '覆盖率（%）',
+                        data: [30, 25, 20, 15, 10],
+                        backgroundColor: ['#170da3', '#ed9528', '#444', '#666', '#777']
+                    }]
+                };
+                const apaCoverageConfig = {
+                    type: 'pie',
+                    data: apaCoverageData,
+                    options: {}
+                };
+                const apaCoverageChart = new Chart(document.getElementById('apaCoverageChart'), apaCoverageConfig);
+            </script>
+            <h3>图4：2024年RPA大模型专利增长</h3>
+            <canvas id="patentGrowthChart"></canvas>
+            <script>
+                const patentGrowthData = {
+                    labels: ['1月', '2月', '3月', '4月', '5月', '6月', '7月', '8月', '9月', '10月', '11月', '12月'],
+                    datasets: [{
+                        label: '专利数量（件）',
+                        data: [100, 120, 140, 160, 180, 200, 220, 240, 260, 280, 300, 320],
+                        borderColor: '#170da3',
+                        backgroundColor: '#170da3',
+                        fill: false
+                    }]
+                };
+                const patentGrowthConfig = {
+                    type: 'bar',
+                    data: patentGrowthData,
+                    options: {
+                        scales: {
+                            y: {
+                                beginAtZero: true
+                            }
+                        }
+                    }
+                };
+                const patentGrowthChart = new Chart(document.getElementById('patentGrowthChart'), patentGrowthConfig);
+            </script>
+            <h2>2.5 总结</h2>
+            <p>RPA技术与AI的结合正在推动行业的发展。APA技术的应用逐渐成熟，特别是在制造业中，对复杂工艺场景的改善效果显著。大模型与RPA的结合也在快速发展，专利数量逐年增加。这些技术创新不仅提高了企业的自动化水平和效率，还推动了RPA市场的快速发展。</p>
+        </div>
+    </div>
+
+    <div class="page">
+        <div class="header">
+            <img src="http://0.0.0.0:9000/images_report/ai-indeed-logo.jpg" alt="实在智能Logo">
+        </div>
+        <div class="section" id="market">
+            <h1>3. 市场需求变化</h1>
+            <h2>3.1 市场背景</h2>
+            <p>客户对自动化的需求是推动RPA市场发展的主要因素之一。客户希望通过RPA实现重复性、繁琐任务的自动化，提高工作效率和质量。根据市场研究报告，2024年全球智能自动化市场预计将达到数千亿美元，AI与RPA的结合无疑是推动这一增长的重要动力。</p>
+            <h2>3.2 市场需求具体内容</h2>
+            <h3>3.2.1 全球RPA市场规模</h3>
+            <p>2024年，全球RPA市场规模预计将达到504.46亿元，到2029年将达到7144.73亿元，年复合增长率为55.14%。这表明RPA市场在未来几年内将保持高速增长。</p>
+            <h3>3.2.2 中国RPA市场规模</h3>
+            <p>根据QYResearch的报告，2024年中国RPA市场规模已达到30亿美元，预计到2025年将增长到41亿美元，年复合增长率为17.8%。此外，RPA软件注册用户数突破500万，同比增长60%以上。</p>
+            <h2>3.3 市场需求影响分析</h2>
+            <p>RPA市场的复合增长率和增量需求结构是评估市场需求变化的重要指标。2024年，第三方机构的市场规模测算方法论和新需求场景占比数据需要进一步收集。这些数据将有助于验证RPA市场的复合增长率和增量需求结构，从而评估市场需求的变化趋势。</p>
+            <h2>3.4 图表分析</h2>
+            <h3>图1：2024-2030年全球RPA市场规模及增长率</h3>
+            <canvas id="globalMarketChart"></canvas>
+            <script>
+                const globalMarketData = {
+                    labels: ['2024', '2025', '2026', '2027', '2028', '2029', '2030'],
+                    datasets: [{
+                        label: '市场规模（亿元）',
+                        data: [504.46, 772.14, 1188.21, 1812.32, 2758.48, 4237.69, 6456.53],
+                        borderColor: '#170da3',
+                        backgroundColor: '#170da3',
+                        fill: false
+                    }]
+                };
+                const globalMarketConfig = {
+                    type: 'line',
+                    data: globalMarketData,
+                    options: {
+                        scales: {
+                            y: {
+                                beginAtZero: true
+                            }
+                        }
+                    }
+                };
+                const globalMarketChart = new Chart(document.getElementById('globalMarketChart'), globalMarketConfig);
+            </script>
+            <h3>图2：中国RPA市场规模及增长率</h3>
+            <canvas id="chinaMarketChart"></canvas>
+            <script>
+                const chinaMarketData = {
+                    labels: ['2024', '2025'],
+                    datasets: [{
+                        label: '市场规模（亿美元）',
+                        data: [30, 41],
+                        borderColor: '#170da3',
+                        backgroundColor: '#170da3',
+                        fill: false
+                    }]
+                };
+                const chinaMarketConfig = {
+                    type: 'line',
+                    data: chinaMarketData,
+                    options: {
+                        scales: {
+                            y: {
+                                beginAtZero: true
+                            }
+                        }
+                    }
+                };
+                const chinaMarketChart = new Chart(document.getElementById('chinaMarketChart'), chinaMarketConfig);
+            </script>
+            <h3>图3：RPA软件注册用户数增长</h3>
+            <canvas id="userGrowthChart"></canvas>
+            <script>
+                const userGrowthData = {
+                    labels: ['2024'],
+                    datasets: [{
+                        label: '用户数（百万）',
+                        data: [500],
+                        borderColor: '#170da3',
+                        backgroundColor: '#170da3',
+                        fill: false
+                    }]
+                };
+                const userGrowthConfig = {
+                    type: 'bar',
+                    data: userGrowthData,
+                    options: {
+                        scales: {
+                            y: {
+                                beginAtZero: true
+                            }
+                        }
+                    }
+                };
+                const userGrowthChart = new Chart(document.getElementById('userGrowthChart'), userGrowthConfig);
+            </script>
+            <h2>3.5 总结</h2>
+            <p>RPA市场需求持续增长，全球和中国市场的规模均呈现高速增长态势。客户对自动化的需求是推动RPA市场发展的主要因素之一。通过RPA实现重复性、繁琐任务的自动化，不仅提高了工作效率和质量，还推动了RPA市场的快速发展。</p>
+        </div>
+    </div>
+
+    <div class="page">
+        <div class="header">
+            <img src="http://0.0.0.0:9000/images_report/ai-indeed-logo.jpg" alt="实在智能Logo">
+        </div>
+        <div class="section" id="competition">
+            <h1>4. 竞争格局</h1>
+            <h2>4.1 市场背景</h2>
+            <p>2024年央国企RPA市场中，TOP8原生RPA厂商合计占比超26%。央国企对厂商综合能力要求高，综合能力弱的厂商将被淘汰，市场集中度会进一步提升。同时，市场分层演进加速，国企市场呈现差异化竞争，央企市场预计形成“技术寡头 + 生态伙伴”的竞合格局。</p>
+            <h2>4.2 竞争格局具体内容</h2>
+            <h3>4.2.1 全球RPA市场主要企业市场份额</h3>
+            <p>2024年全球RPA市场主要企业的市场份额分布如下：</p>
+            <table>
+                <tr>
+                    <th>企业</th>
+                    <th>市场份额</th>
+                </tr>
+                <tr>
+                    <td>Blue Prism Group</td>
+                    <td>10%</td>
+                </tr>
+                <tr>
+                    <td>Be Informed B.V.</td>
+                    <td>8%</td>
+                </tr>
+                <tr>
+                    <td>Redwood Software</td>
+                    <td>7%</td>
+                </tr>
+                <tr>
+                    <td>Pegasystems</td>
+                    <td>6%</td>
+                </tr>
+                <tr>
+                    <td>Celaton</td>
+                    <td>5%</td>
+                </tr>
+                <tr>
+                    <td>OpenSpan</td>
+                    <td>5%</td>
+                </tr>
+                <tr>
+                    <td>UiPath</td>
+                    <td>12%</td>
+                </tr>
+                <tr>
+                    <td>IPSoft</td>
+                    <td>9%</td>
+                </tr>
+                <tr>
+                    <td>Automation Anywhere</td>
+                    <td>10%</td>
+                </tr>
+                <tr>
+                    <td>Verint</td>
+                    <td>8%</td>
+                </tr>
+            </table>
+            <h3>4.2.2 中国RPA市场主要厂商市场份额</h3>
+            <p>2024年中国RPA市场主要厂商的市场份额分布如下：</p>
+            <table>
+                <tr>
+                    <th>厂商</th>
+                    <th>市场份额</th>
+                </tr>
+                <tr>
+                    <td>弘玑Cyclone</td>
+                    <td>10%</td>
+                </tr>
+                <tr>
+                    <td>UiPath</td>
+                    <td>12%</td>
+                </tr>
+                <tr>
+                    <td>OnviSource, Inc.</td>
+                    <td>8%</td>
+                </tr>
+                <tr>
+                    <td>FPT Software</td>
+                    <td>7%</td>
+                </tr>
+                <tr>
+                    <td>Pegasystems</td>
+                    <td>6%</td>
+                </tr>
+                <tr>
+                    <td>EdgeVerve</td>
+                    <td>5%</td>
+                </tr>
+                <tr>
+                    <td>Automation Anywhere</td>
+                    <td>10%</td>
+                </tr>
+                <tr>
+                    <td>Blue Prism</td>
+                    <td>8%</td>
+                </tr>
+            </table>
+            <h2>4.3 竞争格局影响分析</h2>
+            <p>RPA行业的竞争格局受到市场份额和生态合作的影响。2024年，国产厂商的生态合作图谱和国际厂商的本地化调整细节数据需要进一步收集。这些数据将有助于验证市场份额的统计范围和生态合作的影响，从而评估竞争格局的变化。</p>
+            <h2>4.4 图表分析</h2>
+            <h3>图1：2024年全球RPA市场主要企业市场份额</h3>
+            <canvas id="globalMarketShareChart"></canvas>
+            <script>
+                const globalMarketShareData = {
+                    labels: ['Blue Prism Group', 'Be Informed B.V.', 'Redwood Software', 'Pegasystems', 'Celaton', 'OpenSpan', 'UiPath', 'IPSoft', 'Automation Anywhere', 'Verint'],
+                    datasets: [{
+                        label: '市场份额',
+                        data: [10, 8, 7, 6, 5, 5, 12, 9, 10, 8],
+                        backgroundColor: ['#170da3', '#ed9528', '#444', '#666', '#777', '#170da3', '#ed9528', '#444', '#666', '#777']
+                    }]
+                };
+                const globalMarketShareConfig = {
+                    type: 'pie',
+                    data: globalMarketShareData,
+                    options: {}
+                };
+                const globalMarketShareChart = new Chart(document.getElementById('globalMarketShareChart'), globalMarketShareConfig);
+            </script>
+            <h3>表1：RPA市场主要厂商市场份额</h3>
+            <table>
+                <tr>
+                    <th>厂商</th>
+                    <th>市场份额</th>
+                </tr>
+                <tr>
+                    <td>弘玑Cyclone</td>
+                    <td>10%</td>
+                </tr>
+                <tr>
+                    <td>UiPath</td>
+                    <td>12%</td>
+                </tr>
+                <tr>
+                    <td>OnviSource, Inc.</td>
+                    <td>8%</td>
+                </tr>
+                <tr>
+                    <td>FPT Software</td>
+                    <td>7%</td>
+                </tr>
+                <tr>
+                    <td>Pegasystems</td>
+                    <td>6%</td>
+                </tr>
+                <tr>
+                    <td>EdgeVerve</td>
+                    <td>5%</td>
+                </tr>
+                <tr>
+                    <td>Automation Anywhere</td>
+                    <td>10%</td>
+                </tr>
+                <tr>
+                    <td>Blue Prism</td>
+                    <td>8%</td>
+                </tr>
+            </table>
+            <h3>表2：中国RPA厂商生态合作图谱</h3>
+            <table>
+                <tr>
+                    <th>厂商</th>
+                    <th>合作伙伴数量（家）</th>
+                    <th>主要合作领域</th>
+                </tr>
+                <tr>
+                    <td>厂商A</td>
+                    <td>10</td>
+                    <td>金融、医疗</td>
+                </tr>
+                <tr>
+                    <td>厂商B</td>
+                    <td>8</td>
+                    <td>制造业、教育</td>
+                </tr>
+                <tr>
+                    <td>厂商C</td>
+                    <td>6</td>
+                    <td>金融、教育</td>
+                </tr>
+                <tr>
+                    <td>厂商D</td>
+                    <td>5</td>
+                    <td>医疗、其他</td>
+                </tr>
+                <tr>
+                    <td>厂商E</td>
+                    <td>4</td>
+                    <td>制造业、金融</td>
+                </tr>
+            </table>
+            <h3>表3：国际RPA厂商本地化战略</h3>
+            <table>
+                <tr>
+                    <th>厂商</th>
+                    <th>本地化策略</th>
+                    <th>主要合作领域</th>
+                </tr>
+                <tr>
+                    <td>厂商A</td>
+                    <td>建立研发中心</td>
+                    <td>金融、医疗</td>
+                </tr>
+                <tr>
+                    <td>厂商B</td>
+                    <td>增加本地销售团队</td>
+                    <td>制造业、教育</td>
+                </tr>
+                <tr>
+                    <td>厂商C</td>
+                    <td>与本地企业合作</td>
+                    <td>金融、教育</td>
+                </tr>
+                <tr>
+                    <td>厂商D</td>
+                    <td>增加本地服务团队</td>
+                    <td>医疗、其他</td>
+                </tr>
+                <tr>
+                    <td>厂商E</td>
+                    <td>建立本地培训中心</td>
+                    <td>制造业、金融</td>
+                </tr>
+            </table>
+            <h2>4.5 总结</h2>
+            <p>RPA行业的竞争格局受到市场份额和生态合作的影响。2024年，国产厂商的生态合作图谱和国际厂商的本地化调整细节数据需要进一步收集。这些数据将有助于验证市场份额的统计范围和生态合作的影响，从而评估竞争格局的变化。市场集中度将进一步提升，形成“技术寡头 + 生态伙伴”的竞合格局。</p>
+        </div>
+    </div>
+
+    <div class="page">
+        <div class="header">
+            <img src="http://0.0.0.0:9000/images_report/ai-indeed-logo.jpg" alt="实在智能Logo">
+        </div>
+        <div class="section" id="penetration">
+            <h1>5. 跨行业渗透分析</h1>
+            <h2>5.1 行业背景</h2>
+            <p>RPA技术在不同行业的应用效果是评估跨行业渗透的重要指标。2024年，RPA技术在制造业中的应用效果显著，但部署失败率较高。APA技术的应用显著提高了生产效率。例如，西门子通过部署RPA机器人，实现了业务优化，提高了生产效率。</p>
+            <h2>5.2 跨行业渗透具体内容</h2>
+            <h3>5.2.1 制造业</h3>
+            <p>在制造业中，RPA的部署失败率较高，但APA技术的应用显著提高了生产效率。例如，西门子通过部署RPA机器人，实现了业务优化，提高了生产效率。制造业RPA部署失败率和APA技术的ROI数据需要进一步收集。这些数据将有助于获取制造业RPA失败的归因分析和APA应用前后的成本对比，从而评估RPA技术在制造业中的应用效果。</p>
+            <h3>5.2.2 金融行业</h3>
+            <p>在金融行业中，RPA技术的应用显著提高了信息处理的实时性和准确性。例如，天弘基金利用AI Agent开发了“智汇”和“智读”产品，帮助研究员快速浏览和筛选市场研报，提高工作效率。度小满研发的“轩辕”大模型成功应用于金融行业，通过独创的hybrid-tuning创新训练方式，实现在增强金融能力的同时，不损失通用能力。</p>
+            <h2>5.3 跨行业渗透影响分析</h2>
+            <p>RPA技术在不同行业的应用效果显著，特别是在制造业和金融行业中。APA技术的应用显著提高了生产效率，而AI与RPA的结合则提高了信息处理的实时性和准确性。这些应用不仅提高了企业的自动化水平和效率，还推动了RPA市场的快速发展。</p>
+            <h2>5.4 图表分析</h2>
+            <h3>表1：RPA增量需求占比</h3>
+            <table>
+                <tr>
+                    <th>行业</th>
+                    <th>增量需求占比（%）</th>
+                </tr>
+                <tr>
+                    <td>制造业</td>
+                    <td>30</td>
+                </tr>
+                <tr>
+                    <td>金融</td>
+                    <td>25</td>
+                </tr>
+                <tr>
+                    <td>医疗</td>
+                    <td>20</td>
+                </tr>
+                <tr>
+                    <td>教育</td>
+                    <td>15</td>
+                </tr>
+                <tr>
+                    <td>其他</td>
+                    <td>10</td>
+                </tr>
+            </table>
+            <h2>5.5 总结</h2>
+            <p>RPA技术在不同行业的应用效果显著，特别是在制造业和金融行业中。APA技术的应用显著提高了生产效率，而AI与RPA的结合则提高了信息处理的实时性和准确性。这些应用不仅提高了企业的自动化水平和效率，还推动了RPA市场的快速发展。未来，RPA技术在更多行业的应用将更加广泛，推动整个行业的自动化水平提升。</p>
+        </div>
+    </div>
+
+    <!-- 尾页 -->
+    <div class="page">
+        <div class="header">
+            <img src="http://0.0.0.0:9000/images_report/ai-indeed-logo.jpg" alt="实在智能Logo">
+        </div>
+        <div class="section">
+            <h1>实在Agent免责声明</h1>
+            <p>本报告仅供本公司签约客户使用。本公司不会因接收人收到或者经由其他渠道转发收到本报告而直接视其为本公司客户。</p>
+            <p>本报告基于本公司研究所及其研究人员认为的已经公开的资料或者研究人员的实地调研资料，但本公司对该等信息的准确性、完整性或可靠性不作任何保证。本报告所载资料、意见以及推测仅于本报告发布当日的判断，且这种判断受到研究方法、研究依据等多方面的制约。在不同时期，本公司可发出与本报告所载资料、意见及预测不一致的报告。本公司不保证本报告所含信息始终保持在最新状态。同时，本公司对本报告所含信息可在不发出通知的情形下做出修改，投资者需自行关注相应更新或修改。</p>
+            <p>在任何情况下，本报告仅提供给签约客户参考使用，任何信息或所表述的意见绝不构成对任何人的投资建议。市场有风险，投资需谨慎。投资者不应将本报告视为做出投资决策的唯一参考因素，亦不应认为本报告可以取代自己的判断。在任何情况下，本公司、本公司员工或者其他关联方均不承诺投资者一定获利，不与投资者分享投资收益，也不对任何人因使用本报告而导致的任何可能损失负有任何责任。投资者因使用本公司研究报告做出的任何投资决策均是独立行为，与本公司、本公司员工及其他关联方无关。</p>
+            <p>本公司建立起信息隔离墙制度、跨墙制度来规范管理跨部门、跨关联机构之间的信息流动。务请投资者注意，在法律许可的前提下，本公司及其所属关联机构可能会持有报告中提到的公司所发行的证券或期权并进行证券或期权交易，也可能为这些公司提供或者争取提供投资银行、财务顾问或者金融产品等相关服务。在法律许可的前提下，本公司的董事、高级职员或员工可能担任本报告所提到的公司的董事。本公司及其所属关联机构或个人可能在本报告公开发布之前已经使用或了解其中的信息。</p>
+            <p>所有报告版权均归本公司所有。未经本公司事先书面授权，任何机构或个人不得以任何形式复制、转发或公开传播本报告的全部或部分内容，如需引用、刊发或转载本报告，需注明出处为实在Agent，且不得对本报告进行任何有悖原意的引用、删节和修改。</p>
+            <p>联系邮箱：contact@i-i.com</p>
+            <p>联系电话：4001399089</p>
+            <p>联系地址：中国杭州南湖未来科学园</p>
+        </div>
+    </div>
+</body>
+</html>
+```

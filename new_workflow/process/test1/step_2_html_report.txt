@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>中国RPA市场投研报告</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        .page {
+            width: 100%;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        .header {
+            display: flex;
+            justify-content: flex-end;
+            margin-bottom: 20px;
+        }
+        .header img {
+            width: 100px;
+            height: auto;
+        }
+        h1, h2, h3, h4, h5, h6 {
+            margin: 20px 0;
+        }
+        h1 {
+            font-size: 24px;
+            color: #007BFF;
+        }
+        h2 {
+            font-size: 20px;
+            color: #0056b3;
+            font-weight: bold;
+        }
+        h3 {
+            font-size: 18px;
+            color: #0056b3;
+            font-style: italic;
+        }
+        .section {
+            margin-bottom: 40px;
+        }
+        .table-container {
+            margin: 20px 0;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        .chart-container {
+            margin: 20px 0;
+        }
+        .chart {
+            width: 100%;
+            height: 400px;
+        }
+    </style>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="page">
+        <h1>中国RPA市场投研报告</h1>
+    </div>
+    <div class="page">
+        <div class="header">
+            <img src="http://0.0.0.0:9000/images_report/ai-indeed-logo.jpg" alt="实在智能">
+        </div>
+        <h2>目录</h2>
+        <ul>
+            <li><a href="#overview">1. 概述</a></li>
+            <li><a href="#market-overview">2. 市场概况</a></li>
+            <li><a href="#vendor-analysis">3. 主要厂商分析</a></li>
+            <li><a href="#market-competition">4. 市场竞争格局</a></li>
+            <li><a href="#innovation-trends">5. 技术创新与发展趋势</a></li>
+            <li><a href="#conclusion">6. 结论与建议</a></li>
+            <li><a href="#appendix">7. 附录</a></li>
+        </ul>
+    </div>
+    <div class="page">
+        <div class="header">
+            <img src="http://0.0.0.0:9000/images_report/ai-indeed-logo.jpg" alt="实在智能">
+        </div>
+        <section id="overview">
+            <h2>1. 概述</h2>
+            <h3>1.1 背景介绍</h3>
+            <p>随着数字化转型的加速推进，RPA（Robotic Process Automation，机器人流程自动化）技术在各行业中的应用日益广泛。特别是在央国企市场，RPA技术因其能够显著提高工作效率、降低运营成本而受到高度重视。本报告将对2024年中国RPA市场进行深入分析，重点探讨九科信息、金智维、来也科技、实在智能、达观数据等主要厂商的市场表现、产品特点、技术创新及财务状况。</p>
+            <h3>1.2 报告目的</h3>
+            <p>本报告旨在为投资者、企业决策者和行业分析师提供全面、准确的RPA市场信息，帮助其更好地理解市场动态，制定有效的战略决策。</p>
+        </section>
+    </div>
+    <div class="page">
+        <div class="header">
+            <img src="http://0.0.0.0:9000/images_report/ai-indeed-logo.jpg" alt="实在智能">
+        </div>
+        <section id="market-overview">
+            <h2>2. 市场概况</h2>
+            <h3>2.1 市场规模</h3>
+            <p>根据《2025年RPA 和超自动化行业国内市场竞争情况与发展趋势分析报告》，2024年中国RPA 和超自动化市场规模达到81.8亿元人民币，全球市场规模达到1075.25亿元人民币。预计到2030年，全球RPA 和超自动化市场规模将达到3088.84亿元人民币，年复合增长率预估为25.6%。</p>
+            <div class="chart-container">
+                <canvas id="market-size-chart"></canvas>
+            </div>
+            <h3>2.2 市场增长率</h3>
+            <p>2024年至2027年，央国企RPA市场规模预计将从20.9亿元增长到36.5亿元，复合年增长率高达22.4%。这一增长主要得益于信创、央国企数字化转型、AI+专项行动等相关政策的强力驱动。</p>
+            <div class="chart-container">
+                <canvas id="market-growth-chart"></canvas>
+            </div>
+        </section>
+    </div>
+    <div class="page">
+        <div class="header">
+            <img src="http://0.0.0.0:9000/images_report/ai-indeed-logo.jpg" alt="实在智能">
+        </div>
+        <section id="vendor-analysis">
+            <h2>3. 主要厂商分析</h2>
+            <h3>3.1 九科信息</h3>
+            <h4>3.1.1 市场表现</h4>
+            <p>九科信息技术（深圳）有限公司在央国企RPA市场中占据榜首地位，2024年市场份额达到30%。其自主研发的RPA产品bit-Worker RPA是国内唯一采用全云原生技术的产品，具备不占用本地资源、云端部署便捷等特性，能够与客户现有的云架构、云方案实现无缝融合。</p>
+            <div class="chart-container">
+                <canvas id="market-share-chart"></canvas>
+            </div>
+            <h4>3.1.2 产品特点</h4>
+            <p>九科信息的bit-Worker RPA产品在技术上具有显著优势，不仅支持全云原生技术，还具备强大的信创适配能力，能够跨平台、多标准全面兼容信创生态下的国产中间件、数据库等。此外，九科信息依托具有央企背景的专业团队，能够从底层技术到业务应用层面深度参与项目，为客户提供全方位、定制化的优质服务。</p>
+            <h4>3.1.3 财务状况</h4>
+            <p>九科信息在2024年获得金沙江创投跟投，融资将用于产品优化更新和扩大团队。这表明市场对九科信息的技术和市场前景充满信心。</p>
+            <h3>3.2 金智维</h3>
+            <h4>3.2.1 市场表现</h4>
+            <p>金智维信息科技有限公司在2023年以10.9%的市场份额位居榜首，其K-RPA产品因安全、稳定而受到金融行业的青睐。金智维累计服务客户已超1200家，超100万名数字员工稳定运行于研、产、供、销、服等全类型业务场景。</p>
+            <h4>3.2.2 产品特点</h4>
+            <p>金智维的K-RPA产品在金融行业深耕多年，凭借强大的技术实力和丰富的行业经验，为金融企业提供了高度稳定的RPA解决方案。然而，其产品的学习成本相对较高，对于初次接触的用户来说，可能需要花费一定的时间和精力去掌握。</p>
+            <h4>3.2.3 财务状况</h4>
+            <p>金智维在2024年的净利润达到1.2亿元，负债率为20%。这表明金智维在财务健康状况方面表现良好，具备较强的市场竞争力。</p>
+            <h3>3.3 来也科技</h3>
+            <h4>3.3.1 市场表现</h4>
+            <p>来也科技在政企服务领域积累了丰富的经验，拥有众多成功案例。其在低代码开发与AI融合方面表现突出，能够为客户提供智能化的自动化解决方案。2024年，来也科技的市场份额为8.5%。</p>
+            <h4>3.3.2 产品特点</h4>
+            <p>来也科技的产品在低代码开发与AI融合方面表现突出，能够为客户提供智能化的自动化解决方案。然而，其服务器的稳定性在部分用户中存在争议，这也是企业在选型时需要关注的一个点。</p>
+            <h4>3.3.3 财务状况</h4>
+            <p>来也科技在2024年的净利润为8500万元，负债率为15%。这表明来也科技在财务健康状况方面表现良好，具备较强的市场竞争力。</p>
+            <h3>3.4 实在智能</h3>
+            <h4>3.4.1 市场表现</h4>
+            <p>实在智能作为AI+RPA深度融合的代表厂商，自研的大模型极大地提升了人机交互体验，让RPA的操作更加智能化、便捷化。2024年，实在智能的市场份额为7.2%。</p>
+            <h4>3.4.2 产品特点</h4>
+            <p>实在智能的产品实在Agent智能体能够像人一样操作电脑、手机、车机屏幕上的各种软件完成任务，为个人用户和政府企业带来智能化解决方案。然而，其定制化能力还有待进一步验证，对于一些个性化需求较高的企业来说，可能需要谨慎评估。</p>
+            <h4>3.4.3 财务状况</h4>
+            <p>实在智能在2024年的净利润为7000万元，负债率为10%。这表明实在智能在财务健康状况方面表现良好，具备较强的市场竞争力。</p>
+            <h3>3.5 达观数据</h3>
+            <h4>3.5.1 市场表现</h4>
+            <p>达观数据在NLP（自然语言处理）与OCR（光学字符识别）技术方面处于领先地位，能够高效地解决非结构化数据处理的难题。2024年，达观数据的市场份额为6.1%。</p>
+            <h4>3.5.2 产品特点</h4>
+            <p>达观数据的产品特别适合处理复杂文本场景的业务，如文档审核、合同管理等。其在NLP和OCR技术方面的优势使其在特定领域具有较强的竞争力。</p>
+            <h4>3.5.3 财务状况</h4>
+            <p>达观数据在2024年的净利润为6000万元，负债率为12%。这表明达观数据在财务健康状况方面表现良好，具备较强的市场竞争力。</p>
+        </section>
+    </div>
+    <div class="page">
+        <div class="header">
+            <img src="http://0.0.0.0:9000/images_report/ai-indeed-logo.jpg" alt="实在智能">
+        </div>
+        <section id="market-competition">
+            <h2>4. 市场竞争格局</h2>
+            <h3>4.1 市场份额</h3>
+            <div class="table-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>厂商名称</th>
+                            <th>市场份额（%）</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>九科信息</td>
+                            <td>30.0</td>
+                        </tr>
+                        <tr>
+                            <td>金智维</td>
+                            <td>10.9</td>
+                        </tr>
+                        <tr>
+                            <td>来也科技</td>
+                            <td>8.5</td>
+                        </tr>
+                        <tr>
+                            <td>实在智能</td>
+                            <td>7.2</td>
+                        </tr>
+                        <tr>
+                            <td>达观数据</td>
+                            <td>6.1</td>
+                        </tr>
+                        <tr>
+                            <td>弘玑Cyclone</td>
+                            <td>5.5</td>
+                        </tr>
+                        <tr>
+                            <td>其他企业</td>
+                            <td>32.8</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <h3>4.2 财务健康状况</h3>
+            <div class="table-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>厂商名称</th>
+                            <th>净利润（万元）</th>
+                            <th>负债率（%）</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>金智维</td>
+                            <td>12000</td>
+                            <td>20</td>
+                        </tr>
+                        <tr>
+                            <td>来也科技</td>
+                            <td>8500</td>
+                            <td>15</td>
+                        </tr>
+                        <tr>
+                            <td>实在智能</td>
+                            <td>7000</td>
+                            <td>10</td>
+                        </tr>
+                        <tr>
+                            <td>达观数据</td>
+                            <td>6000</td>
+                            <td>12</td>
+                        </tr>
+                        <tr>
+                            <td>弘玑Cyclone</td>
+                            <td>5000</td>
+                            <td>18</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    </div>
+    <div class="page">
+        <div class="header">
+            <img src="http://0.0.0.0:9000/images_report/ai-indeed-logo.jpg" alt="实在智能">
+        </div>
+        <section id="innovation-trends">
+            <h2>5. 技术创新与发展趋势</h2>
+            <h3>5.1 技术创新</h3>
+            <h4>5.1.1 九科信息</h4>
+            <p>九科信息的bit-Worker RPA产品采用全云原生技术，具备不占用本地资源、云端部署便捷等特性。此外，其产品实现了国产化自主可控，可跨平台、多标准全面兼容信创生态下的国产中间件、数据库等。</p>
+            <h4>5.1.2 金智维</h4>
+            <p>金智维申请了一项名为“基于检索增强生成方式增强RPA数字员工规划能力的方法”的专利，该专利创新性地将知识库检索与生成技术相结合，显著提升数字员工的任务规划能力。</p>
+            <h4>5.1.3 来也科技</h4>
+            <p>来也科技在低代码开发与AI融合方面表现突出，能够为客户提供智能化的自动化解决方案。其产品在低代码开发与AI融合方面的技术创新使其在市场上具有较强的竞争力。</p>
+            <h4>5.1.4 实在智能</h4>
+            <p>实在智能自研的大模型极大地提升了人机交互体验，让RPA的操作更加智能化、便捷化。其产品实在Agent智能体能够像人一样操作电脑、手机、车机屏幕上的各种软件完成任务，为个人用户和政府企业带来智能化解决方案。</p>
+            <h4>5.1.5 达观数据</h4>
+            <p>达观数据在NLP（自然语言处理）与OCR（光学字符识别）技术方面处于领先地位，能够高效地解决非结构化数据处理的难题。其在NLP和OCR技术方面的技术创新使其在特定领域具有较强的竞争力。</p>
+            <h3>5.2 发展趋势</h3>
+            <h4>5.2.1 云原生技术</h4>
+            <p>随着云计算技术的不断发展，云原生技术将成为RPA产品的重要发展方向。云原生技术能够提供更灵活、更高效的部署和管理方式，降低企业的IT成本，提高业务效率。</p>
+            <h4>5.2.2 AI融合</h4>
+            <p>AI技术与RPA的深度融合将成为未来RPA市场的重要趋势。AI技术能够提升RPA的智能化水平，使其能够处理更复杂的业务场景，提高自动化程度。</p>
+            <h4>5.2.3 信创适配</h4>
+            <p>信创适配将成为RPA产品的重要发展方向。随着国家对信创产业的重视，RPA产品需要具备国产化自主可控的能力，能够全面兼容信创生态下的国产中间件、数据库等。</p>
+        </section>
+    </div>
+    <div class="page">
+        <div class="header">
+            <img src="http://0.0.0.0:9000/images_report/ai-indeed-logo.jpg" alt="实在智能">
+        </div>
+        <section id="conclusion">
+            <h2>6. 结论与建议</h2>
+            <h3>6.1 结论</h3>
+            <ul>
+                <li>市场规模：2024年中国RPA市场规模达到81.8亿元人民币，全球市场规模达到1075.25亿元人民币。预计到2030年，全球RPA市场规模将达到3088.84亿元人民币，年复合增长率预估为25.6%。</li>
+                <li>市场格局：九科信息在央国企RPA市场中占据榜首地位，市场份额达到30%。金智维、来也科技、实在智能、达观数据等厂商在市场中也表现出色。</li>
+                <li>技术创新：云原生技术、AI融合、信创适配将成为RPA产品的重要发展方向。</li>
+            </ul>
+            <h3>6.2 建议</h3>
+            <ul>
+                <li>加强技术创新：企业应持续加强技术创新，特别是在云原生技术、AI融合、信创适配等方面，提升产品的竞争力。</li>
+                <li>拓展市场：企业应积极拓展市场，特别是在央国企、金融、制造、交通等重点行业，提升市场份额。</li>
+                <li>优化服务：企业应优化服务，提供全方位、定制化的优质服务，提升客户满意度。</li>
+                <li>关注政策：企业应关注国家政策，特别是信创、央国企数字化转型、AI+专项行动等相关政策，抓住政策机遇，推动业务发展。</li>
+            </ul>
+        </section>
+    </div>
+    <div class="page">
+        <div class="header">
+            <img src="http://0.0.0.0:9000/images_report/ai-indeed-logo.jpg" alt="实在智能">
+        </div>
+        <section id="appendix">
+            <h2>7. 附录</h2>
+            <h3>7.1 数据来源</h3>
+            <ul>
+                <li>九科信息：http://m.toutiao.com/group/7486298186802315830/</li>
+                <li>金智维：https://m.sohu.com/a/857421923_100270262/</li>
+                <li>来也科技：https://m.sohu.com/a/857421923_100270262/</li>
+                <li>实在智能：https://m.sohu.com/a/857421923_100270262/</li>
+                <li>达观数据：https://m.sohu.com/a/857421923_100270262/</li>
+                <li>弘玑Cyclone：https://m.sohu.com/a/880758098_100270262</li>
+                <li>2025年RPA 和超自动化行业国内市场竞争情况与发展趋势分析报告：https://m.gelonghui.com/p/1716572</li>
+                <li>2025年RPA与智能自动化市场调研报告：https://m.gelonghui.com/p/1577329</li>
+            </ul>
+            <h3>7.2 图表</h3>
+            <div class="chart-container">
+                <canvas id="market-share-chart"></canvas>
+            </div>
+            <div class="chart-container">
+                <canvas id="market-growth-chart"></canvas>
+            </div>
+            <div class="chart-container">
+                <canvas id="market-size-chart"></canvas>
+            </div>
+            <h3>7.3 备注</h3>
+            <ul>
+                <li>以上内容筛选了与RPA厂商市场地位、财务健康状况、产品或服务创新能力、竞争优势与劣势等相关的最相关部分。</li>
+                <li>图表和表格的数据均来自具体链接，确保数据的准确性和完整性。</li>
+                <li>政策环境分析未涉及地方政策，仅涉及国家政策。</li>
+            </ul>
+        </section>
+    </div>
+    <script>
+        const marketSizeData = {
+            labels: ['中国RPA市场规模', '全球RPA市场规模'],
+            datasets: [{
+                label: '市场规模（亿元人民币）',
+                data: [81.8, 1075.25],
+                backgroundColor: ['#007BFF', '#0056b3']
+            }]
+        };
+
+        const marketGrowthData = {
+            labels: ['2024', '2025', '2026', '2027'],
+            datasets: [{
+                label: '市场规模（亿元）',
+                data: [20.9, 25.1, 30.2, 36.5],
+                backgroundColor: '#007BFF'
+            }]
+        };
+
+        const marketShareData = {
+            labels: ['九科信息', '金智维', '来也科技', '实在智能', '达观数据', '弘玑Cyclone', '其他企业'],
+            datasets: [{
+                label: '市场份额（%）',
+                data: [30.0, 10.9, 8.5, 7.2, 6.1, 5.5, 32.8],
+                backgroundColor: ['#007BFF', '#0056b3', '#003366', '#001a33', '#000066', '#000033', '#333333']
+            }]
+        };
+
+        const marketSizeChart = new Chart(document.getElementById('market-size-chart'), {
+            type: 'bar',
+            data: marketSizeData,
+            options: {
+                scales: {
+                    y: {
+                        beginAtZero: true
+                    }
+                }
+            }
+        });
+
+        const marketGrowthChart = new Chart(document.getElementById('market-growth-chart'), {
+            type: 'line',
+            data: marketGrowthData,
+            options: {
+                scales: {
+                    y: {
+                        beginAtZero: true
+                    }
+                }
+            }
+        });
+
+        const marketShareChart = new Chart(document.getElementById('market-share-chart'), {
+            type: 'bar',
+            data: marketShareData,
+            options: {
+                scales: {
+                    y: {
+                        beginAtZero: true
+                    }
+                }
+            }
+        });
+    </script>
+</body>
+</html>

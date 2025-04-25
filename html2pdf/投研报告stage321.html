@@ -1,10 +1,3 @@
-import requests
-
-# 本地Flask服务地址
-url = "http://127.0.0.1:5535/generate_pdf"
-
-# 示例HTML内容
-html_content = """
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
@@ -117,14 +110,3 @@ html_content = """
 </div>
 </body>
 </html>
-"""
-
-# 发送POST请求到Flask服务
-response = requests.post(url, json={"html_content": html_content, "filename": "test_pdf3211646"})
-
-# 检查响应状态码是否为200（成功）
-if response.status_code == 200:
-    pdf_url = response.json().get("pdf_url")
-    print(f"PDF generated successfully. You can download it from: {pdf_url}")
-else:
-    print(f"Failed to generate PDF. Status code: {response.status_code}, Response: {response.text}")
