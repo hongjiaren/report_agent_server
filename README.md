@@ -1,8 +1,5 @@
 # Report Agent Server
 
-[[License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[[Build Status](https://travis-ci.org/hongjiaren/report_agent_server.svg?branch=master)](https://travis-ci.org/hongjiaren/report_agent_server)
-[[Release](https://img.shields.io/github/v/release/hongjiaren/report_agent_server)]
 **Report Agent Server** 是一个智能化的报告生成服务解决方案，旨在通过深度研究和自动化处理为用户提供高质量的分析报告。系统能够根据用户提出的问题，利用大语言模型和深度检索技术，从网页中提取相关信息并生成结构化的报告内容，最终输出为 HTML 和 PDF 格式。
 
 ---
